@@ -48,6 +48,6 @@ Route::get('/search', function () {
     return view('search_result');
 });
 
-Route::get('/search', function () {
+Route::get('/details', function () {
     return view('details');
 });
